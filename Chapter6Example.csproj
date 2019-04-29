@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Chapter6Example.BitwiseOperators</StartupObject>
+    <StartupObject>Chapter6Example.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="BitwiseOperators.cs" />
     <Compile Include="LogicalOperators.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

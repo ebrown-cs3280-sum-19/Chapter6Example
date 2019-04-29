@@ -5,7 +5,7 @@ using System;
 
 namespace Chapter6Example {
     class LogicalOperators {
-        static void Main() {
+        public static void Run() {
             // create truth table for && (conditional AND) operator
             Console.WriteLine("Conditional AND (&&)");
             Console.WriteLine($"false && false: {false && false}");
@@ -45,7 +45,6 @@ namespace Chapter6Example {
             Console.WriteLine("Logical negation (!)");
             Console.WriteLine($"!false: {!false}");
             Console.WriteLine($"!true: {!true}");
-            Console.ReadKey();
         }
     }
 }

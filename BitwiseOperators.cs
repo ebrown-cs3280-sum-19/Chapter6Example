@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Chapter6Example {
     class BitwiseOperators {
-        static void Main(string[] args) {
+        public static void Run() {
             int a = 60;            /* 60 = 0011 1100 */
             int b = 13;            /* 13 = 0000 1101 */
             int c = 0;
@@ -28,7 +28,6 @@ namespace Chapter6Example {
 
             c = a >> 2;      /* 15 = 0000 1111 */
             Console.WriteLine($"Line 6 - Value of c is {c} Binary: {Convert.ToString(c, 2)}");
-            Console.ReadLine();
         }
     }
 }
